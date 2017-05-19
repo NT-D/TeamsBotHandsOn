@@ -1,0 +1,2 @@
+# TeamsBotHandsOn
+Microsoft Teams と連携するBot開発をするための学習用レポジトリです
