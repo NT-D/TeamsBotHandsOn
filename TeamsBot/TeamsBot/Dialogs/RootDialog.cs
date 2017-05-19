@@ -68,8 +68,7 @@ namespace TeamsBot.Dialogs
             {
                 location = null;
             }
-            await this.ShowMainmenu(context); // If you want to show main menu when the dialog is done, please comment out this line.
-            //context.Wait(MessageReceiveAsync);
+            await this.ShowMainmenu(context); 
         }
     }
 }
