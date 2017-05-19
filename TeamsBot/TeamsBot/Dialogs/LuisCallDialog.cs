@@ -9,11 +9,20 @@ using Microsoft.Bot.Connector;
 
 namespace TeamsBot.Dialogs
 {
+    [Serializable]
     public class LuisCallDialog : IDialog<object>
     {
-        public Task StartAsync(IDialogContext context)
+        public async Task StartAsync(IDialogContext context)
         {
-            throw new NotImplementedException();
+            await context.PostAsync("何が知りたいですか？");
+            context.Wait(MessageReceiveAsync);
+        }
+
+        private async Task MessageReceiveAsync(IDialogContext context, IAwaitable<IMessageActivity> result)
+        {
+            //TODO: Add LUIS communication
+            await context.PostAsync("testing messege receive");
+            context.Done<object>(null);
         }
     }
 }

@@ -11,7 +11,9 @@ namespace TeamsBot.Dialogs
     {
         private const string FlightMenu = "Book Flight";
         private const string HotelMenu = "Book Hotel";
-        private List<string> mainMenuList = new List<string>() { FlightMenu, HotelMenu };
+        private const string QAMenu = "Q&A";
+
+        private List<string> mainMenuList = new List<string>() { FlightMenu, HotelMenu, QAMenu };
         private string location;
 
         public async Task StartAsync(IDialogContext context)
@@ -52,6 +54,9 @@ namespace TeamsBot.Dialogs
                 case HotelMenu:
                     //Call child dialog with data
                     context.Call(new HotelDialog(location), ResumeAfterDialog);
+                    break;
+                case QAMenu:
+                    context.Call(new LuisCallDialog(),ResumeAfterDialog);
                     break;
             }
         }
