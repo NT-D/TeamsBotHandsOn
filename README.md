@@ -1,4 +1,4 @@
-# ハンズオン：Bot Framework & LUIS で作る Microsoft Teams 連携ボット
+# Bot Framework & LUIS で作る Microsoft Teams 連携ボット ハンズオン
 Microsoft Teams と連携する Bot 開発をするための学習用レポジトリです。
 
 
