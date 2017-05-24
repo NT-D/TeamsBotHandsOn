@@ -7,9 +7,9 @@ Microsoft Teams と連携する Bot 開発をするための学習用レポジ�
 ### ハンズオンの目標
 今回のハンズオンでは、2時間を目安に初級課題の完了を目標とします。
 
-初級課題を終えることにより、Bot Framework を使い Microsoft Teams と連携する Bot を構築することができます。初級課題を終えて時間に余裕のある方は、Bot と LUIS を API 経由で連携させ、Bot が自然言語に対応する機能を実装します。
+初級課題を終えることにより、Bot Framework を使った Microsoft Teams と連携する Bot を構築することができます。初級課題を終えて時間に余裕のある方は、中級課題として Bot と LUIS を API 経由で連携させ、Bot が自然言語に対応する機能を実装します。
 
-各課題のリンク先のブログにはサンプルコードがありますので、たとえ時間名に終わらなくても、後からじっくりと取り組むことができます。
+各課題のリンク先のブログにはサンプルコードがありますので、たとえ時間内に終わらなかったとしても、後からじっくりと取り組むことができます。
 
 
 ### ハンズオンの準備
@@ -41,6 +41,9 @@ Azure ADと連携の実装や、認証情報を使って Bot から Office 365 �
 
 5. [Bot に Azure AD 認証/認可を組み込む](https://secretarybotja.wordpress.com/2017/02/25/bot-%E3%81%AB-azure-ad-%E8%AA%8D%E8%A8%BC%E8%AA%8D%E5%8F%AF%E3%82%92%E7%B5%84%E3%81%BF%E8%BE%BC%E3%82%80/)
 6. [Bot から Graph API を呼び出す](https://secretarybotja.wordpress.com/2017/02/28/bot-%E3%81%8B%E3%82%89-365-api-%E3%82%92%E5%91%BC%E3%81%B3%E5%87%BA%E3%81%99/)
+
+Azure の検索サービスである Azure Search と、NoSQL Database サービスのDocumentDB と Bot を連携させ Bot に検索機能を実装します。
+
 7. [Botから検索できるようにする](https://secretarybotja.wordpress.com/2017/03/06/bot%e3%81%8b%e3%82%89%e6%a4%9c%e7%b4%a2%e3%81%a7%e3%81%8d%e3%82%8b%e3%82%88%e3%81%86%e3%81%ab%e3%81%99%e3%82%8b/)
 
 - - -
