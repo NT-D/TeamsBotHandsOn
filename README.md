@@ -18,11 +18,17 @@ Bot Builder SDK を Azure Web Apps にアップロードして、Microsoft Teams
 
 3. [複数の話題を扱えるBotを作る](https://secretarybotja.wordpress.com/2017/02/19/%E8%A4%87%E6%95%B0%E3%81%AE%E8%A9%B1%E9%A1%8C%E3%82%92%E6%89%B1%E3%81%88%E3%82%8Bbot%E3%82%92%E4%BD%9C%E3%82%8B/)
 
+<<<<<<< HEAD
 4. [LUISを利用した自然言語対応](https://www.bing.com)
 
 
 ### 上級課題
 Azure ADと連携の実装や、認証情報を使って Bot から Office 365 に Microsoft Graph API 経由で接続します。
+=======
+4. [LUISを利用できるようにする](/LUIS/LUIS.md)
+
+### 上級者向け
+>>>>>>> cf2048f5c4ec61657839c37bdf0b1a274ed78f3c
 1. [Bot に Azure AD 認証/認可を組み込む](https://secretarybotja.wordpress.com/2017/02/25/bot-%E3%81%AB-azure-ad-%E8%AA%8D%E8%A8%BC%E8%AA%8D%E5%8F%AF%E3%82%92%E7%B5%84%E3%81%BF%E8%BE%BC%E3%82%80/)
 2. [Bot から Graph API を呼び出す](https://secretarybotja.wordpress.com/2017/02/28/bot-%E3%81%8B%E3%82%89-365-api-%E3%82%92%E5%91%BC%E3%81%B3%E5%87%BA%E3%81%99/)
 
