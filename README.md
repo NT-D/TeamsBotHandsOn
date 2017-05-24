@@ -1,4 +1,4 @@
-# Microsoft Teams Bot HandsOn
+# HandsOn：Bot Framework & LUIS で作る Microsoft Teams 連携ボット
 Microsoft Teams と連携するBot開発をするための学習用レポジトリです。
 
 
@@ -38,16 +38,16 @@ Azure ADと連携の実装や、認証情報を使って Bot から Office 365 �
 
 
 ---
-## 中級課題4のLUISのIntent
+### 中級課題4のLUISの設定に必要な情報について
 
-### Microsoft Teamsのチャット機能のQA
+#### [ Microsoft Teamsのチャット機能のQA ] に関するLUISの設定内容
 Intent：AskHowto
 
 Botユーザーの入力例：Teamsのチャット機能がよくわかりません
 
 Botで提示するURL：[Microsoft Teams のクイック スタート](https://support.office.com/ja-jp/article/Microsoft-Teams-%25E3%2581%25AE%25E3%2582%25AF%25E3%2582%25A4%25E3%2583%2583%25E3%2582%25AF-%25E3%2582%25B9%25E3%2582%25BF%25E3%2583%25BC%25E3%2583%2588-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?ui=ja-JP&rs=ja-JP&ad=JP#ID0EAABAAA=最初のステップ)
 
-### Microsoft Teamsの新機能のQA
+#### [ Microsoft Teamsの新機能のQA ] に関するLUISの設定内容
 Intent：AskNewInfo
 
 Botユーザーの入力例：Teamsの新機能が知りたい
