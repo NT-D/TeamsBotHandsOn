@@ -41,9 +41,9 @@ Microsoft コグニティブサービスの LUIS を利用して、自然言語�
 
 Azure ADと連携の実装や、認証情報を使って Bot から Office 365 に Microsoft Graph API 経由で接続します。
 
-1. [Bot に Azure AD 認証/認可を組み込む](https://secretarybotja.wordpress.com/2017/02/25/bot-%E3%81%AB-azure-ad-%E8%AA%8D%E8%A8%BC%E8%AA%8D%E5%8F%AF%E3%82%92%E7%B5%84%E3%81%BF%E8%BE%BC%E3%82%80/)
-2. [Bot から Graph API を呼び出す](https://secretarybotja.wordpress.com/2017/02/28/bot-%E3%81%8B%E3%82%89-365-api-%E3%82%92%E5%91%BC%E3%81%B3%E5%87%BA%E3%81%99/)
-3. [Botから検索できるようにする](https://secretarybotja.wordpress.com/2017/03/06/bot%e3%81%8b%e3%82%89%e6%a4%9c%e7%b4%a2%e3%81%a7%e3%81%8d%e3%82%8b%e3%82%88%e3%81%86%e3%81%ab%e3%81%99%e3%82%8b/)
+5. [Bot に Azure AD 認証/認可を組み込む](https://secretarybotja.wordpress.com/2017/02/25/bot-%E3%81%AB-azure-ad-%E8%AA%8D%E8%A8%BC%E8%AA%8D%E5%8F%AF%E3%82%92%E7%B5%84%E3%81%BF%E8%BE%BC%E3%82%80/)
+6. [Bot から Graph API を呼び出す](https://secretarybotja.wordpress.com/2017/02/28/bot-%E3%81%8B%E3%82%89-365-api-%E3%82%92%E5%91%BC%E3%81%B3%E5%87%BA%E3%81%99/)
+7. [Botから検索できるようにする](https://secretarybotja.wordpress.com/2017/03/06/bot%e3%81%8b%e3%82%89%e6%a4%9c%e7%b4%a2%e3%81%a7%e3%81%8d%e3%82%8b%e3%82%88%e3%81%86%e3%81%ab%e3%81%99%e3%82%8b/)
 
 - - -
 
@@ -66,25 +66,5 @@ Azure ADと連携の実装や、認証情報を使って Bot から Office 365 �
 [SecretaryBotを雇おう！](https://secretarybotja.wordpress.com/2017/04/10/secretarybot%e3%82%92%e9%9b%87%e3%81%8a%e3%81%86%ef%bc%81/)
 
 [SecretaryBotがメディアで紹介されました](https://secretarybotja.wordpress.com/2017/04/21/secretarybot%e3%81%8c%e3%83%a1%e3%83%87%e3%82%a3%e3%82%a2%e3%81%a7%e7%b4%b9%e4%bb%8b%e3%81%95%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f/)
-
-
----
-### 中級課題4のLUISの設定に必要な情報について
-
-#### [ Microsoft Teamsのチャット機能のQA ] に関するLUISの設定内容
-Intent：AskHowto
-
-Botユーザーの入力例：Teamsのチャット機能がよくわかりません
-
-Botで提示するURL：[Microsoft Teams のクイック スタート](https://support.office.com/ja-jp/article/Microsoft-Teams-%25E3%2581%25AE%25E3%2582%25AF%25E3%2582%25A4%25E3%2583%2583%25E3%2582%25AF-%25E3%2582%25B9%25E3%2582%25BF%25E3%2583%25BC%25E3%2583%2588-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?ui=ja-JP&rs=ja-JP&ad=JP#ID0EAABAAA=最初のステップ)
-
-#### [ Microsoft Teamsの新機能のQA ] に関するLUISの設定内容
-Intent：AskNewInfo
-
-Botユーザーの入力例：Teamsの新機能が知りたい
-
-Botで提示するURL：[Microsoft Teams のリリース ノート](https://support.office.com/ja-jp/article/Microsoft-Teams-%E3%81%AE%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9-%E3%83%8E%E3%83%BC%E3%83%88-d7092a6d-c896-424c-b362-a472d5f105de)
-
-
 
 
