@@ -1,5 +1,5 @@
 # ハンズオン：Bot Framework & LUIS で作る Microsoft Teams 連携ボット
-Microsoft Teams と連携するBot開発をするための学習用レポジトリです。
+Microsoft Teams と連携する Bot 開発をするための学習用レポジトリです。
 
 
 ## ハンズオンガイド
@@ -34,8 +34,6 @@ Microsoft コグニティブサービスの LUIS を利用して、自然言語�
 
 4. [LUISを利用できるようにする](/LUIS/LUIS.md)
 
-<<<<<<< HEAD
->>>>>>> cf2048f5c4ec61657839c37bdf0b1a274ed78f3c
 
 ### 上級課題
 
