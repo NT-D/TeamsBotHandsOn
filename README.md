@@ -1,5 +1,5 @@
 # TeamsBotHandsOn
-Microsoft Teams と連携するBot開発をするための学習用レポジトリです
+Microsoft Teams と連携するBot開発をするための学習用レポジトリです。
 
 
 ## このハンズオンについて
@@ -13,10 +13,12 @@ Microsoft Teams と連携するBot開発をするための学習用レポジト�
 ### 初級課題
 Bot Builder SDK を Azure Web Apps にアップロードして、Microsoft Teamsと連携する Bot を構築します。チャットインターフェイス上で、ボタンを使ってメインメニューを実現し、ホテル・旅行の予約を Bot とのチャットで行う機能と、自然言語でのQA機能を実装します。
 1. [作った Bot に Teams 経由で話しかける](https://secretarybotja.wordpress.com/2017/02/18/%E4%BD%9C%E3%81%A3%E3%81%9F-bot-%E3%81%AB-skype-%E7%B5%8C%E7%94%B1%E3%81%A7%E8%A9%B1%E3%81%97%E3%81%8B%E3%81%91%E3%81%A6%E3%81%BF%E3%82%8B/)
+
 2. [Dialog を使った”会話”の実装](https://secretarybotja.wordpress.com/2017/02/18/dialog-%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E4%BC%9A%E8%A9%B1%E3%81%AE%E5%AE%9F%E8%A3%85/)
+
 3. [複数の話題を扱えるBotを作る](https://secretarybotja.wordpress.com/2017/02/19/%E8%A4%87%E6%95%B0%E3%81%AE%E8%A9%B1%E9%A1%8C%E3%82%92%E6%89%B1%E3%81%88%E3%82%8Bbot%E3%82%92%E4%BD%9C%E3%82%8B/)
 
-4. [LUIS](https://www.bing.com)
+4. [LUISを利用した自然言語対応](https://www.bing.com)
 
 
 ### 上級課題
