@@ -88,3 +88,6 @@ Azure の検索サービスである Azure Search と、NoSQL Database サービ
 [SecretaryBotがメディアで紹介されました](https://secretarybotja.wordpress.com/2017/04/21/secretarybot%e3%81%8c%e3%83%a1%e3%83%87%e3%82%a3%e3%82%a2%e3%81%a7%e7%b4%b9%e4%bb%8b%e3%81%95%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f/)
 
 
+あなたの Bot を API 経由でもっと賢くしてみましょう！ 以下のURLでは、Cognitive Services のひとつである Computer Vision API のサンプルを試すことができます。
+
+[Cognitive Services](https://azure.microsoft.com/ja-jp/services/cognitive-services/computer-vision/)
