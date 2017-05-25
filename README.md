@@ -31,6 +31,8 @@ Microsoft Teams と連携する Bot 開発をするための学習用レポジ�
 </font>
 
 
+## ハンズオン
+
 ### 初級課題
 Bot Builder SDK でローカルに作成していた Bot を Azure Web Apps にアップロードします。そして、Bot Directory と Channel を使い Bot を Microsoft Teams と連携させます。
 
@@ -67,9 +69,9 @@ Azure の検索サービスである Azure Search と、NoSQL Database サービ
 
 
 
-### 参考情報
+## 参考情報
 
-今回のハンズオンで触っていただいた Bor Framework とはそもそも何かを把握したい方は、以下のページを参照していただくとそのヒントがあるかもしません。
+今回のハンズオンで触っていただいた Bor Framework とはそもそも何かを把握したい方は、以下のページにヒントがございます。
 
 [Bot Framework 概要と好きなところ](https://secretarybotja.wordpress.com/2017/02/12/bot-framework-%e6%a6%82%e8%a6%81%e3%81%a8%e5%a5%bd%e3%81%8d%e3%81%aa%e3%81%a8%e3%81%93%e3%82%8d/)
 
