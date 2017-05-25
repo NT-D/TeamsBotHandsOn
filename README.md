@@ -33,7 +33,8 @@ Bot の機能としては、チャットインターフェイス上で、ボタ�
 Microsoft Cogonitive Services の LUIS (Language Understanding Intelligent Service) を利用して、自然言語で Bot とやり取りできる API の準備を行います。以下の URL に記載されている内容を参考に LUIS のセットアップを行い、入力した自然言語での問いかけへの分析が JSON と LUIS から帰ってくることを確認します。
 
 4. [LUISを利用できるようにする](/LUIS/LUIS.md)
-
+上記手順を実施の上、TeamsBotプロジェクトを使ってBot開発をしてください。
+`LuisService.cs`にApp ID, App Keyを埋め込むと使えるようになります。
 
 ### 上級課題
 
