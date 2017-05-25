@@ -5,11 +5,11 @@ Microsoft Teams と連携する Bot 開発をするための学習用レポジ�
 ## ハンズオンガイド
 
 ### ハンズオンの目標
-今回のハンズオンでは、2時間を目安に初級課題の完了を目標とします。
+このハンズオンでは、2時間を目安に初級課題の完了を目標とします。
 
 初級課題を終えることにより、Bot Framework を使った Microsoft Teams と連携する Bot を構築することができます。初級課題を終えて時間に余裕のある方は、中級課題として LUIS の設定を行い Bot から 接続させるための API の立ち上げを行い、Bot と連携を行えるようにします。
 
-各課題のリンク先のブログにはサンプルコードがありますので、たとえ時間内に終わらなかったとしても、後からじっくりと取り組むことができます。
+各課題のリンク先のブログにはサンプルコードがありますので、後からじっくりと取り組んでいただくことができます。
 
 
 ### ハンズオンの準備
@@ -17,10 +17,10 @@ Microsoft Teams と連携する Bot 開発をするための学習用レポジ�
 
 [一問一答 Bot の開発 (Getting Started)](https://secretarybotja.wordpress.com/2017/02/12/%E4%B8%80%E5%95%8F%E4%B8%80%E7%AD%94-bot-%E3%81%AE%E9%96%8B%E7%99%BA-getting-started/)
 
-2017/05/25補足：最新版の Bot Framework のデフォルトでは、`MessageContoroller.cs` の `await Conversation.SendAsync(activity, () => new Dialogs.RootDialog());` という記述が追加されており `RootDialog.cs` に会話の処理を飛ばすような記述となっています。ブログの内容のまま `MessageContoroller.cs` の内容を書き換えることで進行可能です。 このデフォルトの`RootDialog.cs`のような書き方は、**初級課題2**の[Dialog を使った”会話”の実装](https://secretarybotja.wordpress.com/2017/02/18/dialog-%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E4%BC%9A%E8%A9%B1%E3%81%AE%E5%AE%9F%E8%A3%85/)で `await Conversation.SendAsync(activity, () => new MeetingDialog());` ででてきます。
+2017/05/25補足：最新版の Bot Framework のデフォルトでは、`MessageContoroller.cs` の `await Conversation.SendAsync(activity, () => new Dialogs.RootDialog());` という記述が追加されており `RootDialog.cs` に会話の処理を飛ばすような記述となっています。ブログの内容のまま `MessageContoroller.cs` の内容を書き換えることで進行可能です。 このデフォルトの`RootDialog.cs`のような書き方は、**初級課題2**の[Dialog を使った”会話”の実装](https://secretarybotja.wordpress.com/2017/02/18/dialog-%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E4%BC%9A%E8%A9%B1%E3%81%AE%E5%AE%9F%E8%A3%85/)において `await Conversation.SendAsync(activity, () => new MeetingDialog());` という形で使われています。
 
 
-2017/05/25補足：Microsoft Teams と連携を試していただく際に、会社の Office 365 の Microsoft Teams では外部アプリの利用が止められている可能性があります。設定は[はじめよう Microsoft Teams 第2回](https://blogs.msdn.microsoft.com/lync_support_team_blog_japan/2016/11/25/start-microsoft-teams-2/)の `“[Microsoft Teams で外部アプリを利用できるようになります] と [外部アプリのサイドローディングを利用できるようになります]”` を確認してください。（設定変更にはOffice 365 の全体管理者が必要です。現時点で変更が難しい場合は、携帯電話があれば10分ほどで取得が可能ですので、30日の[Office 365 無料使用版](https://products.office.com/ja-jp/business/office-365-enterprise-e3-business-software)の取得をお勧めいたします。abc.onmicrosoft.com の “abc”は、Hacdaysbot20170523など適当なものにすることをお勧めいたします。）
+2017/05/25補足：Microsoft Teams と連携を試していただく際に、会社の Office 365 の Microsoft Teams では外部アプリの利用が止められている可能性があります。設定箇所は[はじめよう Microsoft Teams 第2回](https://blogs.msdn.microsoft.com/lync_support_team_blog_japan/2016/11/25/start-microsoft-teams-2/)の **“[Microsoft Teams で外部アプリを利用できるようになります] と [外部アプリのサイドローディングを利用できるようになります]”** を確認してください。（設定変更にはOffice 365 の全体管理者が必要です。このハンズオン実施中で変更が難しい場合は、携帯電話があれば10分ほどで取得が可能ですので、30日間使える[Office 365 無料使用版](https://products.office.com/ja-jp/business/office-365-enterprise-e3-business-software)の取得をお勧めいたします。なお、取得するテナントのドメイン "例：abc.onmicrosoft.com" の “abc” の部分は、hacdaysbot20170523など業務とは関係ない適当なものにすることをお勧めいたします。）
 
 
 
