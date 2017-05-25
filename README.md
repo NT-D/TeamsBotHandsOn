@@ -18,9 +18,9 @@ Microsoft Teams と連携する Bot 開発をするための学習用レポジ�
 [一問一答 Bot の開発 (Getting Started)](https://secretarybotja.wordpress.com/2017/02/12/%E4%B8%80%E5%95%8F%E4%B8%80%E7%AD%94-bot-%E3%81%AE%E9%96%8B%E7%99%BA-getting-started/)
 
 ### 初級課題
-Bot Builder SDK を Azure Web Apps にアップロードして、Microsoft Teamsと連携する Bot を構築します。
+Bot Builder SDK でローカルに作成していた Bot を Azure Web Apps にアップロードします。そして、Bot Directory と Channel を使い Bot を Microsoft Teams と連携させます。
 
-チャットインターフェイス上で、ボタンを使ってメインメニューを実現し、ホテル・旅行の予約を Bot とのチャットで行う機能と、自然言語でのQA機能を実装します。
+Bot の機能としては、チャットインターフェイス上で、ボタンを使ってメインメニューの機能、ホテル・旅行の予約を Bot とのチャットで行う機能を実装します。
 1. [作った Bot に Teams 経由で話しかける](https://secretarybotja.wordpress.com/2017/02/18/%E4%BD%9C%E3%81%A3%E3%81%9F-bot-%E3%81%AB-skype-%E7%B5%8C%E7%94%B1%E3%81%A7%E8%A9%B1%E3%81%97%E3%81%8B%E3%81%91%E3%81%A6%E3%81%BF%E3%82%8B/)
 
 2. [Dialog を使った”会話”の実装](https://secretarybotja.wordpress.com/2017/02/18/dialog-%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E4%BC%9A%E8%A9%B1%E3%81%AE%E5%AE%9F%E8%A3%85/)
@@ -30,7 +30,7 @@ Bot Builder SDK を Azure Web Apps にアップロードして、Microsoft Teams
 
 ### 中級課題
 
-Microsoft コグニティブサービスの LUIS を利用して、自然言語でBotとやり取りできるようにします。以下のURLに記載されている内容をもとに LUIS のセットアップと Bot への組み込みを行います。
+Microsoft Cogonitive Services の LUIS (Language Understanding Intelligent Service) を利用して、自然言語で Bot とやり取りできるようにします。以下の URL に記載されている内容を参考に LUIS のセットアップと Bot への組み込みを行います。
 
 4. [LUISを利用できるようにする](/LUIS/LUIS.md)
 
