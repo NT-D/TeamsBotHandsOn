@@ -26,7 +26,7 @@ Microsoft Teams と連携する Bot 開発をするための学習用レポジ�
 
 <font size="1">
 
-**2017/05/25補足(Microsoft Teamsとの連携)**：Microsoft Teams と連携を試していただく際に、会社でお使いの Office 365 の Microsoft Teams では外部アプリの利用が止められている可能性があります。設定箇所は[はじめよう Microsoft Teams 第2回](https://blogs.msdn.microsoft.com/lync_support_team_blog_japan/2016/11/25/start-microsoft-teams-2/)の **“[Microsoft Teams で外部アプリを利用できるようになります] と [外部アプリのサイドローディングを利用できるようになります]”** を確認してください。（設定変更にはOffice 365 の全体管理者が必要です。このハンズオン実施中で変更が難しい場合は、携帯電話があれば10分ほどで取得が可能ですので、30日間使える[Office 365 無料使用版](https://products.office.com/ja-jp/business/office-365-enterprise-e3-business-software)の取得をお勧めいたします。なお、取得するテナントのドメイン "例：abc.onmicrosoft.com" の “abc” の部分は、hacdaysbot20170523など業務とは関係ない適当なものにすることをお勧めいたします。）
+**2017/05/25補足(Microsoft Teamsとの連携)**：Microsoft Teams と連携を試していただく際に、会社でお使いの Office 365 の Microsoft Teams では外部アプリの利用が止められている可能性があります。設定箇所は[はじめよう Microsoft Teams 第2回](https://blogs.msdn.microsoft.com/lync_support_team_blog_japan/2016/11/25/start-microsoft-teams-2/)の **“[Microsoft Teams で外部アプリを利用できるようになります] と [外部アプリのサイドローディングを利用できるようになります]”** を確認してください。（設定変更にはOffice 365 の全体管理者が必要です。このハンズオン実施中で変更が難しい場合は、携帯電話があれば10分ほどで取得が可能ですので、30日間使える[Office 365 無料使用版](https://products.office.com/ja-jp/business/office-365-enterprise-e3-business-software)の取得をお勧めいたします。なお、取得するテナントのドメイン "例：abc.onmicrosoft.com" の “abc” の部分は、hackdaysbot20170523など業務とは関係ない適当なものにすることをお勧めいたします。）
 
 </font>
 
@@ -65,29 +65,20 @@ Azure の検索サービスである Azure Search と、NoSQL Database サービ
 
 7. [Botから検索できるようにする](https://secretarybotja.wordpress.com/2017/03/06/bot%e3%81%8b%e3%82%89%e6%a4%9c%e7%b4%a2%e3%81%a7%e3%81%8d%e3%82%8b%e3%82%88%e3%81%86%e3%81%ab%e3%81%99%e3%82%8b/)
 
-- - -
-
 
 
 ## 参考情報
 
-今回のハンズオンで触っていただいた Bor Framework とはそもそも何かを把握したい方は、以下のページにヒントがございます。
-
-[Bot Framework 概要と好きなところ](https://secretarybotja.wordpress.com/2017/02/12/bot-framework-%e6%a6%82%e8%a6%81%e3%81%a8%e5%a5%bd%e3%81%8d%e3%81%aa%e3%81%a8%e3%81%93%e3%82%8d/)
-
-
- コードの中で変数を活用し会話の状態を保存することができますが、Bot Framework State service という会話の中の状態を保存する機能が実はあります。その概要については以下のページを読んでみてください。
-
-[Bot State Service の用途に迫る!](https://secretarybotja.wordpress.com/2017/02/19/state-service-%E3%81%AE%E7%94%A8%E9%80%94%E3%81%AB%E8%BF%AB%E3%82%8B/)
+* 今回のハンズオンで触っていただいた Bor Framework とはそもそも何かを把握したい方は、この "[Bot Framework 概要と好きなところ](https://secretarybotja.wordpress.com/2017/02/12/bot-framework-%e6%a6%82%e8%a6%81%e3%81%a8%e5%a5%bd%e3%81%8d%e3%81%aa%e3%81%a8%e3%81%93%e3%82%8d/)" 
+にヒントがございます。
 
 
-上級課題の先には、Office 365 と実用範囲で連携する Bot の構築が可能です。以下の2つのブログには実際に Microsoft Teams から試せる SecreataryBot についての情報が記載されています。興味があれば触ってみてください。
-
-[SecretaryBotを雇おう！](https://secretarybotja.wordpress.com/2017/04/10/secretarybot%e3%82%92%e9%9b%87%e3%81%8a%e3%81%86%ef%bc%81/)
-
-[SecretaryBotがメディアで紹介されました](https://secretarybotja.wordpress.com/2017/04/21/secretarybot%e3%81%8c%e3%83%a1%e3%83%87%e3%82%a3%e3%82%a2%e3%81%a7%e7%b4%b9%e4%bb%8b%e3%81%95%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f/)
+* コードの中で変数を活用し会話の状態を保存することができますが、Bot Framework State service という会話の中の状態を保存する機能が実はあります。その概要については "[Bot State Service の用途に迫る!](https://secretarybotja.wordpress.com/2017/02/19/state-service-%E3%81%AE%E7%94%A8%E9%80%94%E3%81%AB%E8%BF%AB%E3%82%8B/)" を読んでみてください。
 
 
-あなたの Bot を API 経由でもっと賢くしてみましょう！ 以下のURLでは、Cognitive Services のひとつである Computer Vision API のサンプルを試すことができます。
+* 上級課題の先には、Office 365 と実用範囲で連携する Bot の構築が可能です。どんなことができるかは実際に触ってみるのが早いです。"[SecretaryBotを雇おう！](https://secretarybotja.wordpress.com/2017/04/10/secretarybot%e3%82%92%e9%9b%87%e3%81%8a%e3%81%86%ef%bc%81/)" と 
+"[SecretaryBotがメディアで紹介されました](https://secretarybotja.wordpress.com/2017/04/21/secretarybot%e3%81%8c%e3%83%a1%e3%83%87%e3%82%a3%e3%82%a2%e3%81%a7%e7%b4%b9%e4%bb%8b%e3%81%95%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f/)"のブログには実際に Microsoft Teams から試せる SecreataryBot についての情報が記載されています。この秘書ボットは、Exchange Online の会議スケジュールを作ってくれます。ぜひ触ってみてください！
 
-[Cognitive Services](https://azure.microsoft.com/ja-jp/services/cognitive-services/computer-vision/)
+ 
+ * このハンズオンで構築した Bot を API とさらに連携してもっとできることを増やしていきましょう！ この "[Computer Vision API](https://azure.microsoft.com/ja-jp/services/cognitive-services/computer-vision/)" では、Cognitive Services のひとつである Computer Vision API のサンプルを試すことができます。Microsoft Teams から Bot に対して画像をアップロードして処理させてみたりなど、Bot の適用範囲を広げることができます。
+
