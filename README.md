@@ -20,7 +20,7 @@ Microsoft Teams と連携する Bot 開発をするための学習用レポジ�
 
 <font size="1">
 
-**2017/05/25補足(Bot Builder SDK)**：最新版の Bot Builder SDK のデフォルトコードでは、`MessageContoroller.cs` の `await Conversation.SendAsync(activity, () => new Dialogs.RootDialog());` という記述が追加されており `RootDialog.cs` に会話の処理を飛ばすような記述となっています。この準備の段階では、`RootDialog.cs` の存在は忘れていただいて、ブログの内容のまま `MessageContoroller.cs` の一部を書き換えることで進行可能です。 このデフォルトの`RootDialog.cs`のような書き方は、**初級課題2**の[Dialog を使った”会話”の実装](https://secretarybotja.wordpress.com/2017/02/18/dialog-%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E4%BC%9A%E8%A9%B1%E3%81%AE%E5%AE%9F%E8%A3%85/)において `await Conversation.SendAsync(activity, () => new MeetingDialog());` という形で使われています。また、**初級課題3**では、Bot の会話処理のルーターt的な役割として `RootDialog.cs` がでてきます。
+**2017/05/25補足(Bot Builder SDK)**：最新版の Bot Builder SDK のデフォルトコードでは、`MessageContoroller.cs` の `public async Task<HttpResponseMessage> Post([FromBody]Activity activity)` の中身が `await Conversation.SendAsync(activity, () => new Dialogs.RootDialog());` というシンプルな記述になっており、 `RootDialog.cs` に会話の処理を飛ばすような記述となっています。この準備の段階では、`RootDialog.cs` の存在は忘れていただいて、ブログの内容のまま `MessageContoroller.cs` の `public async Task<HttpResponseMessage> Post([FromBody]Activity activity)` 内の一部を書き換えることで進行可能です。 このデフォルトの`RootDialog.cs`のような書き方は、**初級課題2**の[Dialog を使った”会話”の実装](https://secretarybotja.wordpress.com/2017/02/18/dialog-%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E4%BC%9A%E8%A9%B1%E3%81%AE%E5%AE%9F%E8%A3%85/)において `await Conversation.SendAsync(activity, () => new MeetingDialog());` という形で使われています。また、**初級課題3**では、Bot の会話処理のルーターt的な役割として `RootDialog.cs` がでてきます。
 
 </font>
 
