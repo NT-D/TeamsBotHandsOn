@@ -11,8 +11,7 @@ Microsoft Teams と連携する Bot 開発をするための学習用レポジ�
 
 初級課題を終えることにより、Bot Framework を使った Microsoft Teams と連携する Bot を構築することができます。初級課題を終えて時間に余裕のある方は、中級課題として LUIS の設定を行い Bot から 接続させるための API の立ち上げを行い、Bot と連携を行えるようにします。
 
-各課題のリンク先のブログにはサンプルコードがありますので、後からじっくりと取り組んでいただくことができます。
-
+各課題のリンク先のブログにはサンプルコードがありますので、後からじっくりと取り組んでいただくことができます。  
 
 ### ハンズオンの準備
 以下のページを参照して Visual Studio, Bot Framework(Bot Builder SDK), Bot Emulator による開発環境をセットアップします。
@@ -21,7 +20,7 @@ Microsoft Teams と連携する Bot 開発をするための学習用レポジ�
 
 <font size="1">
 
-**2017/05/25補足(Bot Builder SDK)**：最新版の Bot Builder SDK のデフォルトコードでは、`MessageContoroller.cs` の `await Conversation.SendAsync(activity, () => new Dialogs.RootDialog());` という記述が追加されており `RootDialog.cs` に会話の処理を飛ばすような記述となっています。ブログの内容のまま `MessageContoroller.cs` の内容を書き換えることで進行可能です。 このデフォルトの`RootDialog.cs`のような書き方は、**初級課題2**の[Dialog を使った”会話”の実装](https://secretarybotja.wordpress.com/2017/02/18/dialog-%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E4%BC%9A%E8%A9%B1%E3%81%AE%E5%AE%9F%E8%A3%85/)において `await Conversation.SendAsync(activity, () => new MeetingDialog());` という形で使われています。
+**2017/05/25補足(Bot Builder SDK)**：最新版の Bot Builder SDK のデフォルトコードでは、`MessageContoroller.cs` の `await Conversation.SendAsync(activity, () => new Dialogs.RootDialog());` という記述が追加されており `RootDialog.cs` に会話の処理を飛ばすような記述となっています。この準備の段階では、`RootDialog.cs` の存在は忘れていただいて、ブログの内容のまま `MessageContoroller.cs` の一部を書き換えることで進行可能です。 このデフォルトの`RootDialog.cs`のような書き方は、**初級課題2**の[Dialog を使った”会話”の実装](https://secretarybotja.wordpress.com/2017/02/18/dialog-%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E4%BC%9A%E8%A9%B1%E3%81%AE%E5%AE%9F%E8%A3%85/)において `await Conversation.SendAsync(activity, () => new MeetingDialog());` という形で使われています。また、**初級課題3**では、Bot の会話処理のルーターの役割としてでてきます。
 
 </font>
 
