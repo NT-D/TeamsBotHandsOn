@@ -7,7 +7,7 @@ Microsoft Teams と連携する Bot 開発をするための学習用レポジ�
 ### ハンズオンの目標
 今回のハンズオンでは、2時間を目安に初級課題の完了を目標とします。
 
-初級課題を終えることにより、Bot Framework を使った Microsoft Teams と連携する Bot を構築することができます。初級課題を終えて時間に余裕のある方は、中級課題として Bot と LUIS を API 経由で連携させ、Bot が自然言語に対応する機能を実装します。
+初級課題を終えることにより、Bot Framework を使った Microsoft Teams と連携する Bot を構築することができます。初級課題を終えて時間に余裕のある方は、中級課題として LUIS の設定を行い Bot から 世俗させるための API の立ち上げを行います。
 
 各課題のリンク先のブログにはサンプルコードがありますので、たとえ時間内に終わらなかったとしても、後からじっくりと取り組むことができます。
 
@@ -30,7 +30,7 @@ Bot の機能としては、チャットインターフェイス上で、ボタ�
 
 ### 中級課題
 
-Microsoft Cogonitive Services の LUIS (Language Understanding Intelligent Service) を利用して、自然言語で Bot とやり取りできるようにします。以下の URL に記載されている内容を参考に LUIS のセットアップと Bot への組み込みを行います。
+Microsoft Cogonitive Services の LUIS (Language Understanding Intelligent Service) を利用して、自然言語で Bot とやり取りできる API の準備を行います。以下の URL に記載されている内容を参考に LUIS のセットアップを行い、入力した自然言語での問いかけへの分析が JSON と LUIS から帰ってくることを確認します。
 
 4. [LUISを利用できるようにする](/LUIS/LUIS.md)
 
