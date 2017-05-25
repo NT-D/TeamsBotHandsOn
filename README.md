@@ -11,7 +11,7 @@ Microsoft Teams と連携する Bot 開発をするための学習用レポジ�
 
 初級課題を終えることにより、Bot Framework を使った Microsoft Teams と連携する Bot を構築することができます。初級課題を終えて時間に余裕のある方は、中級課題として LUIS の設定を行い Bot から 接続させるための API の立ち上げを行い、Bot と連携を行えるようにします。
 
-各課題のリンク先のブログにはサンプルコードがありますので、後からじっくりと取り組んでいただくことができます。  
+各課題のリンク先のブログにはサンプルコードがありますので、後からじっくりと取り組んでいただくことができます。逆に、サンプルコードに目を通していただいてから各課題のブログを読んでいただいても構いません。  
 
 ### ハンズオンの準備
 以下のページを参照して Visual Studio, Bot Framework(Bot Builder SDK), Bot Emulator による開発環境をセットアップします。
@@ -37,6 +37,9 @@ Microsoft Teams と連携する Bot 開発をするための学習用レポジ�
 Bot Builder SDK でローカルに作成していた Bot を Azure Web Apps にアップロードします。そして、Bot Directory と Channel を使い Bot を Microsoft Teams と連携させます。
 
 Bot の機能としては、チャットインターフェイス上で、ボタンを使ってメインメニューの機能、ホテル・旅行の予約を Bot とのチャットで行う機能を実装します。
+
+サンプルコードでは、`Controllers` と `Dialogs` フォルダにあるファイルが中心となってきますので、そちらを読んでみてください。
+
 1. [作った Bot に Teams 経由で話しかける](https://secretarybotja.wordpress.com/2017/02/18/%E4%BD%9C%E3%81%A3%E3%81%9F-bot-%E3%81%AB-skype-%E7%B5%8C%E7%94%B1%E3%81%A7%E8%A9%B1%E3%81%97%E3%81%8B%E3%81%91%E3%81%A6%E3%81%BF%E3%82%8B/)
 
 2. [Dialog を使った”会話”の実装](https://secretarybotja.wordpress.com/2017/02/18/dialog-%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E4%BC%9A%E8%A9%B1%E3%81%AE%E5%AE%9F%E8%A3%85/)
