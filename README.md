@@ -55,7 +55,7 @@ Bot の機能としては、チャットインターフェイス上で、ボタ�
 
 4. [LUISを利用できるようにする](/LUIS/LUIS.md)
 
-次に、上記手順を実施の上、TeamsBotプロジェクトを使ってBot開発をしてください。`LuisService.cs`に App ID, App Key を埋め込むと使えるようになります。
+次に、上記手順を実施の上、TeamsBotプロジェクトを使ってBot開発をしてください。プロジェクトに[`LuisService.cs`](/TeamsBot/TeamsBot/Services/LuisService.cs)を追加して、 App ID, App Key を埋め込むと使えるようになります。
 
 ### 上級課題
 
