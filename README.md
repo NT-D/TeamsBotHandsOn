@@ -76,6 +76,18 @@ Microsoft.Cognitive.LUIS を NuGet でインストールします。（[ツー�
 
 **2017/5/26補足(Botが上手く反応しない2)**：LUIS への入力に対して想定された Intents が返されているのに Bot が上手く動かないという場合は、Intents の文字列と Bot 側での条件文（IfやSwitch）のところでの判定の文字列と一致しているか（特に大文字・小文字など）確認してみてください。
 
+**2017/5/26補足(Entityの活用)**：IntentでせっかくEntityを拾えるのだから、Entityに応じた処理をさせたいという要望が出てくるかと思います。[LUIS (Language Understanding Intelligent Service) 日本語対応 ~ 解析エンジン作成＆利用方法](https://blogs.msdn.microsoft.com/bluesky/2016/09/21/luis-language-understanding-intelligent-service-japanese-available/)を参考にしていただくとEntityからの値の抽出方法のヒントがあるかと思います。手始めに`LuisService.cs`に `GetTopIntent関数` を真似てEntityを取り出す関数を作成してみてください。以下は乱暴な記述ですがサンプルです。
+
+    public async Task<String> GetEntity(string input)
+    {
+        LuisResult luisResult = await luisClient.Predict(input);
+
+        var entities = luisResult.GetAllEntities();
+        String entity = entities[0].Value;
+
+        return entity;
+    }
+
 ### 上級課題
 
 Azure ADと連携の実装や、認証情報を使って Bot から Office 365 に Microsoft Graph API 経由で接続します。
