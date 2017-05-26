@@ -64,7 +64,7 @@ Microsoft.Cognitive.LUIS を NuGet でインストールします。（[ツー�
 * App ID : apps/の後ろから?までの文字列
 * App Key(Endpoint Key) : subscription-key=の後ろから&までの文字列
 
-LUIS に言葉を教え込んだのに Bot の動作が変わらない場合は、Train と Publish を行ったか確認してみてください。
+LUIS に言葉を教え込んだ(Intents の Utterancesを増やした)のに Bot の動作が変わらない場合は、*Train&Test で Train Application* と *Publish App で Publish* を行ったか確認してみてください。
 
 ### 上級課題
 
