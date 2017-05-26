@@ -30,6 +30,12 @@ Microsoft Teams と連携する Bot 開発をするための学習用レポジ�
 
 </font>
 
+### ハンズオンのアウトプット例
+初級課題と中級課題を終えたときの Bot の動作例です。
+
+<iframe src='https://webchat.botframework.com/embed/AppHandle?s=5L1_4PZV9BE.cwA.cmQ.2w7cRmWfiOTrY6T87SvxKGzPugYvaHLG1oGeerWNGy8' width="300" height="400"></iframe>
+
+（実際に課題を終えたときには、Microsoft Teams 上で動作する Bot が完成します。今回の課題では、Bot Directory を使っていただいているので Web Chat が Channel にありますのでこのような公開もできます。）
 
 ## ハンズオン
 
@@ -47,14 +53,14 @@ Bot の機能としては、チャットインターフェイス上で、ボタ�
 3. [複数の話題を扱えるBotを作る](https://secretarybotja.wordpress.com/2017/02/19/%E8%A4%87%E6%95%B0%E3%81%AE%E8%A9%B1%E9%A1%8C%E3%82%92%E6%89%B1%E3%81%88%E3%82%8Bbot%E3%82%92%E4%BD%9C%E3%82%8B/)
 
 
-**2017/05/26補足(自作したBotを使ってもらう)**： せっかく作ったBotなので他の人にも試してもらいたいと思います。初級課題1の最後に作った Bot を**[Add to Teams] をクリック**という操作で Microsoft Teams チャット画面で使えるようにするのですが、この時のURLを*リンクをコピー*などして Microsoft Teams 使える人に教えると他の人にも試してもらえます。
+**2017/05/26補足(自作したBotを使ってもらう)**： せっかく作ったBotなので他の人にも試してもらいたいと思います。初級課題1の最後に作った Bot を **[Add to Teams] をクリック** という操作で Microsoft Teams チャット画面で使えるようにするのですが、この時のURLを **リンクをコピー** などして Microsoft Teams 使える人に教えると他の人にも試してもらえます。
 
 
 ### 中級課題
 
 はじめに、Microsoft Cogonitive Services の LUIS (Language Understanding Intelligent Service) を利用して、自然言語で Bot とやり取りできる API の準備を行います。
 
-以下の URL に記載されている内容を参考に LUIS のセットアップを行い、入力した自然言語での問いかけへの分析が JSON 形式で LUIS から返されることを確認します。
+以下の URL に記載されている内容を参考に LUIS のセットアップを行い、入力した自然言語での問いかけへの分析結果が JSON 形式で LUIS から返されることを確認します。
 
 4. [LUISを利用できるようにする](/LUIS/LUIS.md)
 
@@ -93,7 +99,7 @@ Azure の検索サービスである Azure Search と、NoSQL Database サービ
 * コードの中で変数を活用し会話の状態を保存することができますが、Bot Framework State service という会話の中の状態を保存する機能が実はあります。その概要については "[Bot State Service の用途に迫る!](https://secretarybotja.wordpress.com/2017/02/19/state-service-%E3%81%AE%E7%94%A8%E9%80%94%E3%81%AB%E8%BF%AB%E3%82%8B/)" を読んでみてください。
 
 
-* 上級課題の先には、Office 365 と実用範囲で連携する Bot の構築が可能です。どんなことができるかは実際に触ってみるのが早いです。"[SecretaryBotを雇おう！](https://secretarybotja.wordpress.com/2017/04/10/secretarybot%e3%82%92%e9%9b%87%e3%81%8a%e3%81%86%ef%bc%81/)" と 
+* 上級課題の先には、Office 365 と実用レベルで連携する Bot の構築が可能です。どんなことができるかは実際に触ってみるのが早いと思います。"[SecretaryBotを雇おう！](https://secretarybotja.wordpress.com/2017/04/10/secretarybot%e3%82%92%e9%9b%87%e3%81%8a%e3%81%86%ef%bc%81/)" と 
 "[SecretaryBotがメディアで紹介されました](https://secretarybotja.wordpress.com/2017/04/21/secretarybot%e3%81%8c%e3%83%a1%e3%83%87%e3%82%a3%e3%82%a2%e3%81%a7%e7%b4%b9%e4%bb%8b%e3%81%95%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f/)"のブログには実際に Microsoft Teams から試せる SecreataryBot についての情報が記載されています。この秘書ボットは、Exchange Online の会議スケジュールを作ってくれます。ぜひ触ってみてください！
 
  
