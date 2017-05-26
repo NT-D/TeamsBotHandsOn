@@ -51,11 +51,21 @@ Bot の機能としては、チャットインターフェイス上で、ボタ�
 
 はじめに、Microsoft Cogonitive Services の LUIS (Language Understanding Intelligent Service) を利用して、自然言語で Bot とやり取りできる API の準備を行います。
 
-以下の URL に記載されている内容を参考に LUIS のセットアップを行い、入力した自然言語での問いかけへの分析が JSON と LUIS から帰ってくることを確認します。
+以下の URL に記載されている内容を参考に LUIS のセットアップを行い、入力した自然言語での問いかけへの分析が JSON 形式で LUIS から返されることを確認します。
 
 4. [LUISを利用できるようにする](/LUIS/LUIS.md)
 
 次に、上記手順を実施の上、TeamsBotプロジェクトを使ってBot開発をしてください。プロジェクトに[`LuisService.cs`](/TeamsBot/TeamsBot/Services/LuisService.cs)を追加して、 App ID, App Key を埋め込むと使えるようになります。
+
+
+Microsoft.Cognitive.LUIS を NuGet でインストールします。（[ツール]-[NuGetパッケージマネージャー]-[ソリューションのNuGetパッケージの管理]）
+
+そして、サンプルコードを参考に、[LuisService.cs](TeamsBot/TeamsBot/Services/LuisService.cs)も作成し、 App ID と  App Key を埋め込むと使えるようになります。Publish した LUIS の URL から App ID と App Key を取得する方法は以下を参照。
+
+* App ID : apps/の後ろから?までの文字列
+* App Key(Endpoint Key) : subscription-key=の後ろから&までの文字列
+
+LUIS に言葉を教え込んだ(Intents の Utterancesを増やした)のに Bot の動作が変わらない場合は、*Train&Test で Train Application* と *Publish App で Publish* を行ったか確認してみてください。
 
 ### 上級課題
 
