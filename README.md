@@ -88,6 +88,7 @@ Microsoft.Cognitive.LUIS を NuGet でインストールします。（[ツー�
         return entity;
     }
 
+
 ### 上級課題
 
 Azure ADと連携の実装や、認証情報を使って Bot から Office 365 に Microsoft Graph API 経由で接続します。
