@@ -30,7 +30,7 @@ Microsoft Teams と連携する Bot 開発をするための学習用レポジ�
 
 </font>
 
-### ハンズオンのアウトプット例
+### ハンズオンの Bot 動作例
 初級課題と中級課題を終えたときの Bot の動作例です。
 
 <iframe src='https://webchat.botframework.com/embed/AppHandle?s=5L1_4PZV9BE.cwA.cmQ.2w7cRmWfiOTrY6T87SvxKGzPugYvaHLG1oGeerWNGy8' width="300" height="400"></iframe>
