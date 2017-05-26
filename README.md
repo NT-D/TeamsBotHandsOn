@@ -59,7 +59,7 @@ Bot の機能としては、チャットインターフェイス上で、ボタ�
 
 Microsoft.Cognitive.LUIS を NuGet でインストールします。（[ツール]-[NuGetパッケージマネージャー]-[ソリューションのNuGetパッケージの管理]）
 
-そして、サンプルコードを参考に、`LuisService.cs`も作成し、 App ID と  App Key を埋め込むと使えるようになります。Publish した LUIS の URL から App ID と App Key を取得する方法は以下を参照。
+そして、サンプルコードを参考に、[LuisService.cs](TeamsBot/TeamsBot/Services/LuisService.cs)も作成し、 App ID と  App Key を埋め込むと使えるようになります。Publish した LUIS の URL から App ID と App Key を取得する方法は以下を参照。
 
 * App ID : apps/の後ろから?までの文字列
 * App Key(Endpoint Key) : subscription-key=の後ろから&までの文字列
