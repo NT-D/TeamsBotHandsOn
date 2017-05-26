@@ -20,7 +20,7 @@ Microsoft Teams と連携する Bot 開発をするための学習用レポジ�
 
 <font size="1">
 
-**2017/05/25補足(Bot Builder SDK)**：最新版の Bot Builder SDK のデフォルトコードでは、`MessageContoroller.cs` の `public async Task<HttpResponseMessage> Post([FromBody]Activity activity)` の中身が `await Conversation.SendAsync(activity, () => new Dialogs.RootDialog());` というシンプルな記述になっており、 `RootDialog.cs` に会話の処理を飛ばすような記述となっています。この準備の段階では、`RootDialog.cs` の存在は忘れていただいて、ブログの内容のまま `MessageContoroller.cs` の `public async Task<HttpResponseMessage> Post([FromBody]Activity activity)` 内の一部を書き換えることで進行可能です。 このデフォルトの`RootDialog.cs`のような書き方は、**初級課題2**の[Dialog を使った”会話”の実装](https://secretarybotja.wordpress.com/2017/02/18/dialog-%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E4%BC%9A%E8%A9%B1%E3%81%AE%E5%AE%9F%E8%A3%85/)において `await Conversation.SendAsync(activity, () => new MeetingDialog());` という形で使われています。また、**初級課題3**では、Bot の会話処理のルーターt的な役割として `RootDialog.cs` がでてきます。
+**2017/05/25補足(Bot Builder SDK)**：最新版の Bot Builder SDK のデフォルトコードでは、`MessageContoroller.cs` の `public async Task<HttpResponseMessage> Post([FromBody]Activity activity)` の中身が `await Conversation.SendAsync(activity, () => new Dialogs.RootDialog());` というシンプルな記述になっており、 `RootDialog.cs` に会話の処理を飛ばすような記述となっています。この準備の段階では、`RootDialog.cs` の存在は忘れていただいて、ブログの内容のまま `MessageContoroller.cs` の `public async Task<HttpResponseMessage> Post([FromBody]Activity activity)` 内の一部を書き換えることで進行可能です。 このデフォルトの`RootDialog.cs`のような書き方は、**初級課題2**の[Dialog を使った”会話”の実装](https://secretarybotja.wordpress.com/2017/02/18/dialog-%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E4%BC%9A%E8%A9%B1%E3%81%AE%E5%AE%9F%E8%A3%85/)において `await Conversation.SendAsync(activity, () => new MeetingDialog());` という形で使われています。また、**初級課題3**では、Bot の会話処理のルーター的な役割として `RootDialog.cs` がでてきます。
 
 </font>
 
@@ -47,6 +47,9 @@ Bot の機能としては、チャットインターフェイス上で、ボタ�
 3. [複数の話題を扱えるBotを作る](https://secretarybotja.wordpress.com/2017/02/19/%E8%A4%87%E6%95%B0%E3%81%AE%E8%A9%B1%E9%A1%8C%E3%82%92%E6%89%B1%E3%81%88%E3%82%8Bbot%E3%82%92%E4%BD%9C%E3%82%8B/)
 
 
+**2017/05/26補足(自作したBotを使ってもらう)**： せっかく作ったBotなので他の人にも試してもらいたいと思います。初級課題1の最後に作った Bot を**[Add to Teams] をクリック**という操作で Microsoft Teams チャット画面で使えるようにするのですが、この時のURLを*リンクをコピー*などして Microsoft Teams 使える人に教えると他の人にも試してもらえます。
+
+
 ### 中級課題
 
 はじめに、Microsoft Cogonitive Services の LUIS (Language Understanding Intelligent Service) を利用して、自然言語で Bot とやり取りできる API の準備を行います。
@@ -65,6 +68,8 @@ Microsoft.Cognitive.LUIS を NuGet でインストールします。（[ツー�
 * App Key(Endpoint Key) : subscription-key=の後ろから&までの文字列
 
 LUIS に言葉を教え込んだ(Intents の Utterancesを増やした)のに Bot の動作が変わらない場合は、*Train&Test で Train Application* と *Publish App で Publish* を行ったか確認してみてください。
+
+
 
 ### 上級課題
 
