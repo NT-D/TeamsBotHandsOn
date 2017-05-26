@@ -33,7 +33,8 @@ Microsoft Teams と連携する Bot 開発をするための学習用レポジ�
 ### ハンズオンの Bot 動作例
 初級課題と中級課題を終えたときの Bot の動作例です。
 
-<iframe src='https://webchat.botframework.com/embed/AppHandle?s=5L1_4PZV9BE.cwA.cmQ.2w7cRmWfiOTrY6T87SvxKGzPugYvaHLG1oGeerWNGy8' width="300" height="400"></iframe>
+<iframe width="300" height="400" src='https://webchat.botframework.com/embed/AppHandle?s=5L1_4PZV9BE.cwA.cmQ.2w7cRmWfiOTrY6T87SvxKGzPugYvaHLG1oGeerWNGy8'>
+</iframe>
 
 （実際に課題を終えたときには、Microsoft Teams 上で動作する Bot が完成します。今回の課題では、Bot Directory を使っていただいているので Web Chat が Channel にありますのでこのような公開もできます。）
 
